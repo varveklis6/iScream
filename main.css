@@ -1,0 +1,49 @@
+body{
+background-color: rgb(3, 3, 110);
+}
+    .background{
+    display: inline-block;
+    }
+    .whole{
+        display: inline-block;
+        width: 800px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+        .whole > .top{
+            display: inline-block;
+        }
+           .whole > .top > nav{
+            display: inline-block;
+
+           }
+        section{
+            display: inline-block;
+            width: 45%;
+            float:left;
+            background-color: blueviolet;
+
+        }
+            section > .info{
+                display: inline-block;
+
+            }
+                section > .info > h1{
+                    display: inline-block;
+
+                }
+                section > .info > p{
+                    display: inline-block;
+
+                }
+                section > .info > .more{
+                    display: inline-block;
+
+                }
+            section > .img{
+                display: inline-block;
+
+            }
